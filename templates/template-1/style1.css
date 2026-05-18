@@ -3,7 +3,7 @@ body {
     padding: 0; 
     font-family: 'Segoe UI', sans-serif;
     color: midnightblue;
-    background-color: cornflowerblue; 
+    background-color: #ffffff; 
 }
 
 .page-container {
@@ -13,7 +13,7 @@ body {
 }
 
 header { 
-    background-color: darkcyan;  
+    background-color: #14a0a0;  
     padding: 15px 30px; 
     display: flex;
     align-items: center;
@@ -25,3 +25,65 @@ h1 {
     flex-direction: row;
     justify-content: center;
 }
+
+nav {
+    background-color: #138f7e;  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+.main-content { 
+    background-color: #18cff0;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.contents { 
+    background-color: #1cddff;
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+}
+
+.contents-2 { 
+    background-color: #1cddff;
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+}
+
+footer {
+    background-color: #329cff;  
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+
+footer p {
+    display: flex;
+    justify-content: center;
+}
+
+.Other-Links {
+    background-color: #80d5fc;
+    padding: 10px 40px;
+    margin-top: 10px;
+    border: 1px solid #777;
+    display: flex;
+    justify-content: center;
+} 
