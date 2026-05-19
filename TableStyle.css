@@ -1,0 +1,36 @@
+table {  
+    width: 60%;  
+    border-collapse: collapse;  
+}  
+
+  
+
+table, th, td {  
+    border: 1px solid black;  
+}  
+
+  
+
+th {   
+    background-color: darkblue;  
+    color: white;  
+}  
+
+  
+
+th, td {  
+    padding: 10px;  
+    text-align: center;  
+}  
+
+  
+
+tr:nth-child(even) {  
+    background-color: lightgray;  
+}  
+
+
+
+tr:hover {  
+    background-color: lightblue;  
+}
