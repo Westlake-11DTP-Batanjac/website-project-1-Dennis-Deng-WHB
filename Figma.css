@@ -16,6 +16,17 @@ header {
   padding: 15px 30px; 
   display: flex;
   flex-direction: row;
-  align-items: center;
+  justify-content: space-around;
 } 
 
+footer { 
+    background-color: #6b6b6b;  
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+
+.Introductions {
+    color: black;
+}
