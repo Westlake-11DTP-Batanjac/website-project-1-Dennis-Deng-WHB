@@ -34,17 +34,29 @@ header {
   font-size: larger;
 }
 
-.Introductions{
-  display: flex;
-  flex-direction: column;
+h1 {
+  text-align: center;
+  font-size: 45px;
 }
 
-.Intro1{
-  width: 327px;
+p {
+    width: 755px;
 }
 
-.Intro2{
-  width: 312px;
+p.Shorter {
+    width: 645px;
+}
+
+.Title {
+    display: flex;
+    justify-self: start;
+}
+
+main {
+  color: black;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 18px;
 }
 
 footer { 
@@ -54,10 +66,6 @@ footer {
   flex-direction: column;
   justify-content: center;
 } 
-
-main {
-  color: black;
-}
 
 .FooterText {
   width: 732px;
@@ -73,8 +81,4 @@ main {
 .Other-Links a {
   color: white;
   text-decoration: none;
-}
-
-h1{
-  text-align: center;
 }
