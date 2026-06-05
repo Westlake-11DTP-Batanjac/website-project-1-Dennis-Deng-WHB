@@ -6,7 +6,8 @@ body {
 }
 
 .page-container { 
-  height: 850px;  
+  height: auto;  
+  width: auto;
   display: flex;
   flex-direction: column;
 } 
@@ -52,6 +53,9 @@ p.Shorter {
     justify-self: start;
 }
 
+.title {
+  text-align: start;}
+
 main {
   color: black;
   padding-left: 40px;
@@ -81,4 +85,37 @@ footer {
 .Other-Links a {
   color: white;
   text-decoration: none;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.contents {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: auto;
+}
+
+.contents2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: auto;
+}
+
+.contents3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: auto;
+}
+
+.contents4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: auto;
 }
