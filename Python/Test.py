@@ -4,8 +4,8 @@
 def Begin():
     # Enter player name
     Player = input(("Welcome to the quiz. What's your name? "))
-    print(f"Alright {Player}, now you will answer the following eight questions about Karl Urban, a New Zealand actor. Wish You Luck.")
-    print("------Loading...------")
+    print(f"Alright {Player}, now you will answer the following eight questions about Karl Urban. Wish You Luck.")
+    print("\n------Loading...------\n")
     score = 0
     # Start of question 1
     Question1(score)
