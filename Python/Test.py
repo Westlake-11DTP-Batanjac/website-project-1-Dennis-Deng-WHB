@@ -227,8 +227,6 @@ def Question7(score):
             Question8(score)
             break
         # Wrong inputs
-        elif answer >= 0 or answer <= 0:
-            print("Should be True or False, retry")
         else:
             print("That's not an option, retry")
         
@@ -250,8 +248,6 @@ def Question8(score):
             print("\n")
             End(score)
             break
-        elif answer >= 0 or answer <= 0:
-            print("Should be True or False, retry")
         else:
             print("That's not an option, retry")
 
@@ -268,10 +264,10 @@ def End(score):
     time.sleep(1)
     # Pass line
     if score >= 5:
-        print(f"Final Mark: {score}, Test Passed")
+        print(f"\nFinal Mark: {score}, Test Passed\n")
     # Quiz failed
     elif score <= 4:
-        print(f"Final Mark: {score}, Test Failed")
+        print(f"\nFinal Mark: {score}, Test Failed\n")
     print("GOODBYE")
     
 # Start the entire quiz
