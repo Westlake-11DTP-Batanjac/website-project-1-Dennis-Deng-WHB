@@ -1,0 +1,46 @@
+h1{
+    color: darkgreen;
+    text-align: center;
+}
+hr{
+    height: 5px;
+    background-color: brown;
+    border: none;
+}
+.house{
+    border: solid green ;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+}
+/* Pupuke */
+.pupuke{
+    background-color: BLUE ; 
+}
+ 
+/* Smale */ 
+.smale { 
+    background-color: lightGREEN ; 
+} 
+ 
+/* Stanley */ 
+.stanley {
+    background-color: RED ; 
+} 
+ 
+/* Ururoto */ 
+.ururoto {
+    background-color: BLACK ; 
+    color: white; 
+} 
+ 
+/* Murchison */ 
+.murchison {
+    background-color: WHITE; 
+} 
+ 
+/* Hood */ 
+.hood {
+    background-color: darkred ; 
+    color: white; 
+}
