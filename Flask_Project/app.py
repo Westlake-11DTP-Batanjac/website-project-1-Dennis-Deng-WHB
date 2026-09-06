@@ -1,14 +1,14 @@
-from flask import Flask 
+from flask import Flask, render_template
 
 app = Flask(__name__) 
 
 @app.route("/") 
 def home(): 
-    return "<h1>Denn1s' D' Setup works!</h1>" 
+    return render_template("index.html")
 
 @app.route("/about") 
 def about(): 
-    return "<h1>Denn1s's second page works.</h1>" 
+    return render_template("about.html")
 
 @app.route("/contact")
 def contact():
@@ -16,4 +16,4 @@ def contact():
     "zd24152@my.westlake.school.nz"
 
 if __name__ == "__main__": 
-    app.run(debug=True) 
+    app.run(debug=True)
