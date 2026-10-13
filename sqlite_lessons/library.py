@@ -1,14 +1,17 @@
 import sqlite3
 
-conn = sqlite3.connect("school_library.db")
-print("Connected")
+conn = sqlite3.connect("school_library.db") 
+
+conn.row_factory = sqlite3.Row 
 
 cursor = conn.cursor()
-print(cursor)
 
-cursor.execute("SELECT * FROM books") 
-books = cursor.fetchall() 
-for book in books: 
-    print(book) 
+wanted = input("Which genre? ") 
+
+cursor.execute("SELECT * FROM books WHERE genre = ?", (wanted,)) 
+
+for book in cursor: 
+
+    print(book["title"]) 
 
 conn.close()
