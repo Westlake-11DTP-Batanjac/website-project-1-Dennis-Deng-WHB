@@ -1,4 +1,5 @@
 from flask import Flask, render_template
+import sqlite3
 
 app = Flask(__name__) 
 
@@ -13,6 +14,13 @@ def about():
 @app.route("/contact") 
 def contact(): 
     return "Email me at zd24152@my.westlake.school.nz" 
+
+@app.route("/post", methods=["POST"]) 
+def post(): 
+    name = request.form["____"] 
+    # read your other inputs the same way 
+    print(name) 
+    return "Got it!" 
 
 if __name__ == "__main__": 
     app.run(debug=True) 
