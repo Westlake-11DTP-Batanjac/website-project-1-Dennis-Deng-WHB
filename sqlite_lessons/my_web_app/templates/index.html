@@ -1,37 +1,26 @@
 <!DOCTYPE html> 
-
 <html lang="en"> 
-
 <head> 
-
     <meta charset="UTF-8"> 
-
     <title>Task 3 - Semantic Layout Challenge</title> 
-
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" > 
-
 </head> 
 
 <body> 
-
     <div class="page-container"> 
-
         <header> 
-
             <div>
                 <p><img src="" alt="LogoImage"> Heading 1 </p>
             </div>
-
         </header> 
 
         <nav> 
-            <ul href="">Home</ul>
-            <ul href="">About Us</ul>
-            <ul href="">Contact Us</ul>
+            <ul href="{{ url_for('/index') }}" >Home</ul>
+            <ul href="{{ url_for('/about') }}" >About Us</ul>
+            <ul href="{{ url_for('/contacts') }}" >Contact Us</ul>
         </nav> 
 
         <main class="main-content"> 
-
             <div class="content-box">
                 <p>
                     Heading 2
@@ -44,23 +33,17 @@
             <div class="image-box">
                 <img src="" alt="Image">
             </div>
-
         </main> 
 
         <footer> 
-
             Unordered List of Footer Info
-
             <br/>
-
             <div class="social-links">
                 Social Media Links
             </div>
-
         </footer> 
 
     </div> 
 
 </body> 
-
 </html>
