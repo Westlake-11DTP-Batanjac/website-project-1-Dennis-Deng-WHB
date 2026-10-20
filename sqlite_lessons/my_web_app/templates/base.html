@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}WAITEMATA CLAY TARGET{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header> 
+        <div>
+            <p><img src="" alt="LogoImage"> Heading 1 </p>
+        </div>
+    </header> 
+
+    <nav> 
+        <ul href="{{ url_for('home') }}" >Home</ul>
+        <ul href="{{ url_for('about') }}" >About Us</ul>
+        <ul href="{{ url_for('contact') }}" >Contact Us</ul>
+    </nav> 
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer> 
+        Footer
+        <br/>
+        <div class="social-links">
+            Social Media Links
+        </div>
+    </footer> 
+</body>
+</html>

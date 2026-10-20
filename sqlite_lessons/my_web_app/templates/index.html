@@ -8,18 +8,10 @@
 
 <body> 
     <div class="page-container"> 
-        <header> 
-            <div>
-                <p><img src="" alt="LogoImage"> Heading 1 </p>
-            </div>
-        </header> 
-
-        <nav> 
-            <ul href="{{ url_for('home') }}" >Home</ul>
-            <ul href="{{ url_for('about') }}" >About Us</ul>
-            <ul href="{{ url_for('contact') }}" >Contact Us</ul>
-        </nav> 
-
+        
+        {% extends "base.html" %}
+        
+        {% block content %}
         <main class="main-content"> 
             <div class="content-box">
                 <p>
@@ -34,14 +26,7 @@
                 <img src="" alt="Image">
             </div>
         </main> 
-
-        <footer> 
-            Unordered List of Footer Info
-            <br/>
-            <div class="social-links">
-                Social Media Links
-            </div>
-        </footer> 
+        {% endblock %}
 
     </div> 
 
