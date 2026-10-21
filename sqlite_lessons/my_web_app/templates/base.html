@@ -9,13 +9,12 @@
         <div>
             <img src="" alt="LogoImage"> Heading 1
         </div>
-    </header> 
-
-    <nav> 
+        
         <ul href="{{ url_for('home') }}" >Home</ul>
         <ul href="{{ url_for('about') }}" >About Us</ul>
         <ul href="{{ url_for('contact') }}" >Contact Us</ul>
-    </nav> 
+
+    </header> 
 
     <main>
         {% block content %}{% endblock %}
