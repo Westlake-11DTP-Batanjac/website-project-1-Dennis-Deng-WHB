@@ -1,34 +1,20 @@
-<!DOCTYPE html> 
-<html lang="en"> 
-<head> 
-    <meta charset="UTF-8"> 
-    <title>Task 3 - Semantic Layout Challenge</title> 
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" > 
-</head> 
-
-<body> 
-    <div class="page-container"> 
+{% extends "base.html" %}
         
-        {% extends "base.html" %}
-        
-        {% block content %}
-        <main class="main-content"> 
-            <div class="content-box">
-                <p>
-                    Heading 2
-                    <br/>
-                    <br/>
-                    Paragraph of information text
-                </p>
-            </div>
+{% block content %}
+<main class="main-content"> 
+    <div class="content-box">
+        <p>
+            Heading 2
+            <br/>
+            <br/>
+            Paragraph of information text
+        </p>
+    </div>
 
-            <div class="image-box">
-                <img src="" alt="Image">
-            </div>
-        </main> 
-        {% endblock %}
+    <div class="image-box">
+        <img src="" alt="Image">
+    </div>
+</main> 
+{% endblock %}
 
-    </div> 
-
-</body> 
 </html>

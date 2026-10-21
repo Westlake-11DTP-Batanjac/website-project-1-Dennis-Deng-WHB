@@ -1,16 +1,29 @@
   /* Base setup */ 
 
-body { 
+.main_content { 
 
   margin: 0; 
 
   padding: 0; 
 
-  font-family: 'Segoe UI', sans-serif; 
+  font-family: 'Inter', sans-serif; 
+
+  color: #000000;
+
+} 
+
+.base { 
+
+  margin: 0; 
+
+  padding: 0; 
+
+  font-family: 'Inter', sans-serif; 
 
   color: #FFFFFF;
 
 } 
+
 
 .page-container { 
 
@@ -80,7 +93,7 @@ nav ul li a {
 
 .main-content { 
 
-    background-color: #e0e0e0;  
+    background-color: #FFFFFF;  
 
     padding: 40px; 
 
@@ -96,19 +109,19 @@ nav ul li a {
 
 .content-box { 
 
-    background-color: #b0a3a3;  
+    background-color: #6B6B6B;  
 
     width: 300px; 
 
     height: 400px; 
 
-    padding: 20px; 
+    padding: 10px; 
 
 } 
 
 .image-box { 
 
-    background-color: #b0a3a3; 
+    background-color: #6B6B6B; 
 
     width: 250px; 
 
