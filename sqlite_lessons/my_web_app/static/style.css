@@ -30,7 +30,7 @@ header {
   justify-content: space-around;
 } 
 
-a {
+header a {
   color: white;
 }
 
@@ -92,12 +92,15 @@ footer {
     justify-content: center;
 } 
 
-.social-links { 
-    background-color: #BCBCBC;  
-    color: white; 
+.footer-links {
+    color: #969696; 
     padding: 10px 40px; 
     margin-top: 10px; 
     border: 1px solid #6B6B6B; 
     display: flex;
     justify-content: center;
 } 
+
+.footer-links a{
+  color: #969696;
+}
